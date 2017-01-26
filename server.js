@@ -1,6 +1,5 @@
 var express = require('express')
 var app = express()
-var whoami = require('whoami')
 var port = 8080
 
 app.get('/', function (req, res) {
